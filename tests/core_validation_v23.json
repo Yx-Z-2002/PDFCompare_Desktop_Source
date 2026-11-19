@@ -1,0 +1,68 @@
+[
+  {
+    "suite": "regression_extract",
+    "passed": true,
+    "count": 17,
+    "failure_tail": ""
+  },
+  {
+    "suite": "table_extract_checks",
+    "passed": true,
+    "count": 11,
+    "failure_tail": ""
+  },
+  {
+    "suite": "regression_service",
+    "passed": true,
+    "count": 19,
+    "failure_tail": ""
+  },
+  {
+    "suite": "regression_separators",
+    "passed": true,
+    "count": 18,
+    "failure_tail": ""
+  },
+  {
+    "suite": "test_separator_service",
+    "passed": true,
+    "count": 12,
+    "failure_tail": ""
+  },
+  {
+    "suite": "test_outer_separators",
+    "passed": true,
+    "count": 23,
+    "failure_tail": ""
+  },
+  {
+    "suite": "test_color_diff",
+    "passed": true,
+    "count": 8,
+    "failure_tail": ""
+  },
+  {
+    "suite": "test_cancellation_service",
+    "passed": true,
+    "count": 13,
+    "failure_tail": ""
+  },
+  {
+    "suite": "test_compare_cancellation",
+    "passed": true,
+    "count": 8,
+    "failure_tail": ""
+  },
+  {
+    "suite": "test_field_recovery_v23",
+    "passed": true,
+    "count": 23,
+    "failure_tail": ""
+  },
+  {
+    "suite": "test_v23_review",
+    "passed": true,
+    "count": 4,
+    "failure_tail": ""
+  }
+]

@@ -1,0 +1,14 @@
+test_cancel_compare_after_extraction_retains_complete_extract_only (__main__.CancellationGUITests.test_cancel_compare_after_extraction_retains_complete_extract_only) ... ok
+test_cancel_original_search_preserves_diagnostics_then_restarts (__main__.CancellationGUITests.test_cancel_original_search_preserves_diagnostics_then_restarts) ... ok
+test_cancel_recompare_preserves_existing_output (__main__.CancellationGUITests.test_cancel_recompare_preserves_existing_output) ... ok
+test_cancel_running_extraction_keeps_prior_result_and_can_restart (__main__.CancellationGUITests.test_cancel_running_extraction_keeps_prior_result_and_can_restart) ... ok
+test_close_requests_stop_and_waits_for_worker (__main__.CancellationGUITests.test_close_requests_stop_and_waits_for_worker) ... ok
+test_idle_stop_disabled_and_missing_label_is_uncertain (__main__.CancellationGUITests.test_idle_stop_disabled_and_missing_label_is_uncertain) ... ok
+test_late_stop_after_atomic_commit_reports_completed (__main__.CancellationGUITests.test_late_stop_after_atomic_commit_reports_completed) ... ok
+test_stale_progress_and_terminal_do_not_finish_new_job (__main__.CancellationGUITests.test_stale_progress_and_terminal_do_not_finish_new_job) ... ok
+test_stop_button_visible_at_minimum_window (__main__.CancellationGUITests.test_stop_button_visible_at_minimum_window) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 1.827s
+
+OK

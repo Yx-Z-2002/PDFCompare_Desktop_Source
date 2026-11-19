@@ -1,0 +1,17 @@
+test_disabled_auto_crop_retains_every_visible_region (__main__.SeparatorServiceRegression.test_disabled_auto_crop_retains_every_visible_region) ... ok
+test_each_page_uses_its_own_rule_positions (__main__.SeparatorServiceRegression.test_each_page_uses_its_own_rule_positions) ... ok
+test_full_service_comparison_ignores_nonrepeated_margin_changes (__main__.SeparatorServiceRegression.test_full_service_comparison_ignores_nonrepeated_margin_changes) ... ok
+test_interior_horizontal_rule_does_not_crop_body (__main__.SeparatorServiceRegression.test_interior_horizontal_rule_does_not_crop_body) ... ok
+test_manual_and_auto_crop_totals_count_each_line_once (__main__.SeparatorServiceRegression.test_manual_and_auto_crop_totals_count_each_line_once) ... ok
+test_nearest_outer_rule_wins_over_body_rule_in_edge_zone (__main__.SeparatorServiceRegression.test_nearest_outer_rule_wins_over_body_rule_in_edge_zone) ... ok
+test_no_text_outside_line_means_no_automatic_crop (__main__.SeparatorServiceRegression.test_no_text_outside_line_means_no_automatic_crop) ... ok
+test_old_config_defaults_and_geometry_parameter_validation (__main__.SeparatorServiceRegression.test_old_config_defaults_and_geometry_parameter_validation) ... ok
+test_single_page_nonrepeated_plain_text_is_cropped (__main__.SeparatorServiceRegression.test_single_page_nonrepeated_plain_text_is_cropped) ... ok
+test_table_borders_near_page_edge_are_not_cropped (__main__.SeparatorServiceRegression.test_table_borders_near_page_edge_are_not_cropped) ... ok
+test_text_crossing_rule_is_never_sliced (__main__.SeparatorServiceRegression.test_text_crossing_rule_is_never_sliced) ... ok
+test_thin_filled_rectangle_is_a_separator (__main__.SeparatorServiceRegression.test_thin_filled_rectangle_is_a_separator) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.143s
+
+OK

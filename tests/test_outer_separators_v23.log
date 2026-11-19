@@ -1,0 +1,30 @@
+识别 1 条需求，命中 1 条。结果：/tmp/pdfcompare-outermost-xha9po_i/cli
+test_boundary_rules_keep_valid_nonempty_rectangle (__main__.OutermostTests.test_boundary_rules_keep_valid_nonempty_rectangle) ... ok
+test_boxed_header_and_footer_are_eligible (__main__.OutermostTests.test_boxed_header_and_footer_are_eligible) ... ok
+test_cli_passes_explicit_mode (__main__.OutermostTests.test_cli_passes_explicit_mode) ... [1/1] input.pdf
+ok
+test_config_rejects_unknown_mode_and_wrapper_forwards_mode (__main__.OutermostTests.test_config_rejects_unknown_mode_and_wrapper_forwards_mode) ... ok
+test_cropbox_coordinates_and_180_rotation (__main__.OutermostTests.test_cropbox_coordinates_and_180_rotation) ... ok
+test_dashed_and_filled_rules_are_supported (__main__.OutermostTests.test_dashed_and_filled_rules_are_supported) ... ok
+test_disabled_mode_records_settings_but_preserves_page (__main__.OutermostTests.test_disabled_mode_records_settings_but_preserves_page) ... ok
+test_extraction_matches_preview_and_preserves_manual_crop (__main__.OutermostTests.test_extraction_matches_preview_and_preserves_manual_crop) ... ok
+test_first_top_and_last_bottom_of_multiple_lines (__main__.OutermostTests.test_first_top_and_last_bottom_of_multiple_lines) ... ok
+test_fragmented_table_rules_still_rejected_in_conservative_mode (__main__.OutermostTests.test_fragmented_table_rules_still_rejected_in_conservative_mode) ... ok
+test_large_gaps_do_not_join_unrelated_ornaments (__main__.OutermostTests.test_large_gaps_do_not_join_unrelated_ornaments) ... ok
+test_middle_rule_is_never_promoted_to_header (__main__.OutermostTests.test_middle_rule_is_never_promoted_to_header) ... ok
+test_near_rule_removed_text_uses_actual_padded_crop (__main__.OutermostTests.test_near_rule_removed_text_uses_actual_padded_crop) ... ok
+test_near_text_is_chosen_with_inspectable_warning (__main__.OutermostTests.test_near_text_is_chosen_with_inspectable_warning) ... ok
+test_no_rules_keeps_full_page (__main__.OutermostTests.test_no_rules_keeps_full_page) ... ok
+test_no_text_outside_no_longer_blocks_boundary (__main__.OutermostTests.test_no_text_outside_no_longer_blocks_boundary) ... ok
+test_repeated_cleanup_cannot_use_deeper_conservative_line (__main__.OutermostTests.test_repeated_cleanup_cannot_use_deeper_conservative_line) ... ok
+test_rules_outside_default_zone_need_explicit_zone_adjustment (__main__.OutermostTests.test_rules_outside_default_zone_need_explicit_zone_adjustment) ... ok
+test_separately_drawn_dash_fragments_form_one_rule (__main__.OutermostTests.test_separately_drawn_dash_fragments_form_one_rule) ... ok
+test_service_default_and_saved_settings_propagate_mode (__main__.OutermostTests.test_service_default_and_saved_settings_propagate_mode) ... ok
+test_short_rules_need_explicit_width_adjustment (__main__.OutermostTests.test_short_rules_need_explicit_width_adjustment) ... ok
+test_single_bottom_rule_only_crops_bottom (__main__.OutermostTests.test_single_bottom_rule_only_crops_bottom) ... ok
+test_two_contiguous_strokes_can_make_a_full_width_rule (__main__.OutermostTests.test_two_contiguous_strokes_can_make_a_full_width_rule) ... ok
+
+----------------------------------------------------------------------
+Ran 23 tests in 0.207s
+
+OK

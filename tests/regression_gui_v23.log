@@ -1,0 +1,19 @@
+{
+  "passed": [
+    "native_window_constructs",
+    "background_extract_and_compare",
+    "result_filter_search_and_detail",
+    "comparison_audit_visible",
+    "expanded_detail_window",
+    "small_window_retains_footer",
+    "csv_export_contains_audit",
+    "original_text_search",
+    "source_search_uses_newly_selected_file",
+    "native_pdf_preview_and_zoom",
+    "extract_only_then_recompare",
+    "advanced_footer_visible_at_500px",
+    "advanced_settings_dialog"
+  ],
+  "count": 13,
+  "errors": []
+}

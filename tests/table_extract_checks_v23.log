@@ -1,0 +1,16 @@
+test_blank_label_continues (__main__.TableChecks.test_blank_label_continues) ... ok
+test_four_column_value_named_like_field (__main__.TableChecks.test_four_column_value_named_like_field) ... ok
+test_heading_row_not_swallowed (__main__.TableChecks.test_heading_row_not_swallowed) ... ok
+test_index_column (__main__.TableChecks.test_index_column) ... ok
+test_link_reference_not_new_requirement (__main__.TableChecks.test_link_reference_not_new_requirement) ... ok
+test_non_metadata_table (__main__.TableChecks.test_non_metadata_table) ... ok
+test_paired_continuations_stay_in_their_columns (__main__.TableChecks.test_paired_continuations_stay_in_their_columns) ... ok
+test_separate_pairs (__main__.TableChecks.test_separate_pairs) ... ok
+test_unknown_field_stops_continuation (__main__.TableChecks.test_unknown_field_stops_continuation) ... ok
+test_unknown_label_in_established_pair (__main__.TableChecks.test_unknown_label_in_established_pair) ... ok
+test_value_named_like_field (__main__.TableChecks.test_value_named_like_field) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.001s
+
+OK

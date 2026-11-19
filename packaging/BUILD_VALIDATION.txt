@@ -1,0 +1,26 @@
+PDFCompare Desktop 2.3 validation
+
+Windows x64 GUI cross-build succeeded. All embedded names, sizes and SHA-256 hashes verified; embedded source bytes match final source. 156 core and 41 native GUI regression checks passed. Linux Tk application self-test passed. Windows native execution has NOT been verified.
+
+{
+  "ok": true,
+  "platform": "Windows x64",
+  "pe_subsystem": "GUI (2)",
+  "bytes": 39233536,
+  "sha256": "1842aa890382aed6825d67c7b161cfa178da3fc4dea33d9d78c2cdb812bda875",
+  "verified_bundle_files": 1682,
+  "runtime": "CPython 3.13.12 / Tcl Tk 8.6.15",
+  "windows_execution_tested": false,
+  "app_version": "2.3",
+  "filename": "PDFCompare_Desktop_v2_3.exe",
+  "app_source_byte_comparison": [
+    "app/compare_matches.py",
+    "app/desktop.py",
+    "app/extract_requirements.py",
+    "app/margins.py",
+    "app/server.py",
+    "app/service.py",
+    "app/task_control.py"
+  ],
+  "entry_source_byte_comparison": true
+}

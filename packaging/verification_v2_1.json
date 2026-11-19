@@ -1,0 +1,24 @@
+{
+  "ok": true,
+  "platform": "Windows x64",
+  "pe_subsystem": "GUI (2)",
+  "bytes": 39222272,
+  "sha256": "81ea7284b8ba0c0d45c757a5526226fbc591345e8584d744ff986502cbdb9828",
+  "verified_bundle_files": 1681,
+  "runtime": "CPython 3.13.12 / Tcl Tk 8.6.15",
+  "windows_execution_tested": false,
+  "app_version": "2.1",
+  "filename": "PDFCompare_Desktop_v2_1.exe",
+  "app_source_byte_comparison": [
+    "app/compare_matches.py",
+    "app/desktop.py",
+    "app/extract_requirements.py",
+    "app/margins.py",
+    "app/server.py",
+    "app/service.py"
+  ],
+  "entry_source_byte_comparison": true,
+  "tcl_tk_licenses_included": true,
+  "v2_0_preserved": true,
+  "v2_0_sha256": "ff5f7daad913836fa15d62c4f1a69c53ddbeb2487746312a37bc6fa5aebd2b47"
+}

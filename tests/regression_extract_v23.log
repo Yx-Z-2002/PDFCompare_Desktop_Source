@@ -1,0 +1,22 @@
+test_bare_id_wrapped_heading (__main__.ExtractionTests.test_bare_id_wrapped_heading) ... ok
+test_diagnostic_candidates_and_text (__main__.ExtractionTests.test_diagnostic_candidates_and_text) ... ok
+test_field_after_number_column (__main__.ExtractionTests.test_field_after_number_column) ... ok
+test_four_column_table_is_separated (__main__.ExtractionTests.test_four_column_table_is_separated) ... ok
+test_fullwidth_heading_and_label (__main__.ExtractionTests.test_fullwidth_heading_and_label) ... ok
+test_id_title_space_separator (__main__.ExtractionTests.test_id_title_space_separator) ... ok
+test_identifier_split_across_lines (__main__.ExtractionTests.test_identifier_split_across_lines) ... ok
+test_label_only_then_value (__main__.ExtractionTests.test_label_only_then_value) ... ok
+test_letter_spaced_label (__main__.ExtractionTests.test_letter_spaced_label) ... ok
+test_literal_scientific_unicode_preserved (__main__.ExtractionTests.test_literal_scientific_unicode_preserved) ... ok
+test_margins_protect_unicode_heading (__main__.ExtractionTests.test_margins_protect_unicode_heading) ... ok
+test_missing_text_page_breaks_ownership (__main__.ExtractionTests.test_missing_text_page_breaks_ownership) ... ok
+test_no_false_match_next_known_field (__main__.ExtractionTests.test_no_false_match_next_known_field) ... ok
+test_no_false_match_next_unknown_field (__main__.ExtractionTests.test_no_false_match_next_unknown_field) ... ok
+test_normal_legacy (__main__.ExtractionTests.test_normal_legacy) ... ok
+test_overprinted_glyphs_deduplicated (__main__.ExtractionTests.test_overprinted_glyphs_deduplicated) ... ok
+test_wrapped_field_label (__main__.ExtractionTests.test_wrapped_field_label) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.233s
+
+OK

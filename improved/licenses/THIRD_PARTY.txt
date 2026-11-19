@@ -1,0 +1,19 @@
+# Bundled third-party components
+
+The Windows runtime and native extensions are redistributed unmodified except for Python's application search-path configuration. License and copyright files from each distribution are retained in `runtime/` and `runtime/Lib/site-packages/*.dist-info/` (including nested `licenses/` directories).
+
+| Component | Bundled version | Project | License |
+|---|---|---|---|
+| CPython | 3.13.12 (Windows x86-64 embeddable distribution) | https://www.python.org/ | Python Software Foundation license; see `runtime/LICENSE.txt` for included components |
+| pdfplumber | 0.11.9 | https://github.com/jsvine/pdfplumber | MIT |
+| pdfminer.six | 20251230 | https://github.com/pdfminer/pdfminer.six | MIT |
+| Pillow | 12.3.0 | https://python-pillow.github.io/ | MIT-CMU; additional bundled library notices retained |
+| pypdfium2 / PDFium | 5.14.0 | https://github.com/pypdfium2-team/pypdfium2 | Apache-2.0 / BSD-3-Clause plus PDFium dependency notices retained |
+| charset-normalizer | 3.5.2 | https://github.com/jawah/charset_normalizer | MIT |
+| cryptography | 50.0.2 | https://github.com/pyca/cryptography | Apache-2.0 OR BSD-3-Clause; bundled notices retained |
+| cffi | 2.1.1 | https://cffi.readthedocs.io/ | MIT |
+| pycparser | 3.11 | https://github.com/eliben/pycparser | BSD-3-Clause |
+
+This single-file distribution also contains a native launcher built with Go.
+The Go license is included in licenses/Go-LICENSE.txt.
+All application processing runs locally. No dependencies are downloaded at runtime.

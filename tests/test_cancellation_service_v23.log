@@ -1,0 +1,18 @@
+test_cancel_at_extraction_completion_does_not_publish_partial_run (__main__.CancellationServiceTests.test_cancel_at_extraction_completion_does_not_publish_partial_run) ... ok
+test_cancel_before_registration_creates_nothing (__main__.CancellationServiceTests.test_cancel_before_registration_creates_nothing) ... ok
+test_cancel_during_a_page_removes_only_new_run (__main__.CancellationServiceTests.test_cancel_during_a_page_removes_only_new_run) ... ok
+test_cancel_during_csv_export_removes_new_run (__main__.CancellationServiceTests.test_cancel_during_csv_export_removes_new_run) ... ok
+test_cancel_during_stream_copy_removes_partial_input (__main__.CancellationServiceTests.test_cancel_during_stream_copy_removes_partial_input) ... ok
+test_cancel_first_comparison_retains_completed_extraction (__main__.CancellationServiceTests.test_cancel_first_comparison_retains_completed_extraction) ... ok
+test_cancel_from_independent_audit_is_not_hidden (__main__.CancellationServiceTests.test_cancel_from_independent_audit_is_not_hidden) ... ok
+test_cancel_search_and_search_again (__main__.CancellationServiceTests.test_cancel_search_and_search_again) ... ok
+test_cancel_when_b_starts_removes_completed_a_from_new_run (__main__.CancellationServiceTests.test_cancel_when_b_starts_removes_completed_a_from_new_run) ... ok
+test_cancel_while_archiving_preserves_old_zip_and_reports (__main__.CancellationServiceTests.test_cancel_while_archiving_preserves_old_zip_and_reports) ... ok
+test_commit_failure_restores_previous_files (__main__.CancellationServiceTests.test_commit_failure_restores_previous_files) ... ok
+test_recompare_cancel_after_new_csv_preserves_previous_comparison (__main__.CancellationServiceTests.test_recompare_cancel_after_new_csv_preserves_previous_comparison) ... ok
+test_recompare_cancel_before_audit_preserves_every_previous_byte (__main__.CancellationServiceTests.test_recompare_cancel_before_audit_preserves_every_previous_byte) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.275s
+
+OK

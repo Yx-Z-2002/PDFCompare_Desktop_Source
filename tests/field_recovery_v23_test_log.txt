@@ -1,0 +1,28 @@
+test_all_text_cropped_not_misdiagnosed_scan (__main__.FieldRecoveryTests.test_all_text_cropped_not_misdiagnosed_scan) ... ok
+test_cancel_during_page_read_stops_before_next_page (__main__.FieldRecoveryTests.test_cancel_during_page_read_stops_before_next_page) ... ok
+test_cancellation_is_not_swallowed_by_table_fallback (__main__.FieldRecoveryTests.test_cancellation_is_not_swallowed_by_table_fallback) ... ok
+test_cropped_header_label_not_claimed_as_current_item (__main__.FieldRecoveryTests.test_cropped_header_label_not_claimed_as_current_item) ... ok
+test_cropped_label_keeps_missing_with_page_evidence (__main__.FieldRecoveryTests.test_cropped_label_keeps_missing_with_page_evidence) ... ok
+test_different_label_is_explained_not_aliased (__main__.FieldRecoveryTests.test_different_label_is_explained_not_aliased) ... ok
+test_empty_value_is_unknown_and_distinct (__main__.FieldRecoveryTests.test_empty_value_is_unknown_and_distinct) ... ok
+test_index_with_explicit_field_value (__main__.FieldRecoveryTests.test_index_with_explicit_field_value) ... ok
+test_label_split_three_lines (__main__.FieldRecoveryTests.test_label_split_three_lines) ... ok
+test_mention_inside_another_field_value_not_reassigned (__main__.FieldRecoveryTests.test_mention_inside_another_field_value_not_reassigned) ... ok
+test_narrative_mention_does_not_become_field (__main__.FieldRecoveryTests.test_narrative_mention_does_not_become_field) ... ok
+test_next_requirement_label_is_not_diagnostic_evidence_for_first (__main__.FieldRecoveryTests.test_next_requirement_label_is_not_diagnostic_evidence_for_first) ... ok
+test_no_grid_index_column (__main__.FieldRecoveryTests.test_no_grid_index_column) ... ok
+test_numbered_prose_is_not_a_field (__main__.FieldRecoveryTests.test_numbered_prose_is_not_a_field) ... ok
+test_same_line_pairs_without_colon (__main__.FieldRecoveryTests.test_same_line_pairs_without_colon) ... ok
+test_same_line_separate_pairs (__main__.FieldRecoveryTests.test_same_line_separate_pairs) ... ok
+test_second_pair_empty_label_and_value_below (__main__.FieldRecoveryTests.test_second_pair_empty_label_and_value_below) ... ok
+test_table_error_falls_back_to_text_and_recovery (__main__.FieldRecoveryTests.test_table_error_falls_back_to_text_and_recovery) ... ok
+test_value_named_like_another_field_stays_value (__main__.FieldRecoveryTests.test_value_named_like_another_field_stays_value) ... ok
+test_wrapped_label_cannot_cross_next_requirement (__main__.FieldRecoveryTests.test_wrapped_label_cannot_cross_next_requirement) ... ok
+test_wrapped_label_does_not_take_other_fields_value (__main__.FieldRecoveryTests.test_wrapped_label_does_not_take_other_fields_value) ... ok
+test_wrapped_label_does_not_take_unknown_field_or_heading (__main__.FieldRecoveryTests.test_wrapped_label_does_not_take_unknown_field_or_heading) ... ok
+test_wrapped_label_value_at_first_row_right (__main__.FieldRecoveryTests.test_wrapped_label_value_at_first_row_right) ... ok
+
+----------------------------------------------------------------------
+Ran 23 tests in 0.106s
+
+OK

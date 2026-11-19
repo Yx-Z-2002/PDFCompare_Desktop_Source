@@ -1,0 +1,13 @@
+test_already_stopped_does_not_create_output (__main__.CompareCancellation.test_already_stopped_does_not_create_output) ... ok
+test_csv_cancellation_closes_stream (__main__.CompareCancellation.test_csv_cancellation_closes_stream) ... ok
+test_edit_search_observes_stop (__main__.CompareCancellation.test_edit_search_observes_stop) ... ok
+test_html_rendering_observes_stop (__main__.CompareCancellation.test_html_rendering_observes_stop) ... ok
+test_long_common_prefix_observes_stop (__main__.CompareCancellation.test_long_common_prefix_observes_stop) ... ok
+test_long_common_suffix_observes_stop (__main__.CompareCancellation.test_long_common_suffix_observes_stop) ... ok
+test_normal_callback_preserves_diff_content (__main__.CompareCancellation.test_normal_callback_preserves_diff_content) ... ok
+test_record_comparison_can_stop_partway (__main__.CompareCancellation.test_record_comparison_can_stop_partway) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.048s
+
+OK

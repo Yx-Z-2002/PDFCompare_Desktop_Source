@@ -1,0 +1,20 @@
+[
+  {
+    "file": "packaging/downloads/tcltk.msi",
+    "bytes": 3276800,
+    "sha256": "f2ddbb369a6ced92d0af547ec016ea26f2eaa97ce30100c0cecd3cf270b59e22",
+    "source": "https://www.python.org/ftp/python/3.13.12/amd64/tcltk.msi"
+  },
+  {
+    "file": "packaging/downloads/go.tar.gz",
+    "bytes": 59768009,
+    "sha256": "9e9b755d63b36acf30c12a9a3fc379243714c1c6d3dd72861da637f336ebb35b",
+    "source": "https://go.dev/dl/go1.25.5.linux-amd64.tar.gz"
+  },
+  {
+    "file": "original/runtime/python313.dll",
+    "bytes": 6117208,
+    "sha256": "265a27242ee97f81eeac6a556fd7de56baff2222f2334386d8f948e359a649d8",
+    "source": "Supplied PDFCompare.exe embedded runtime"
+  }
+]

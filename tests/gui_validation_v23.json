@@ -1,0 +1,22 @@
+[
+  {
+    "suite": "regression_gui",
+    "passed": true,
+    "count": 13
+  },
+  {
+    "suite": "test_separator_gui",
+    "passed": true,
+    "count": 10
+  },
+  {
+    "suite": "test_color_diff_gui",
+    "passed": true,
+    "count": 9
+  },
+  {
+    "suite": "test_cancellation_gui",
+    "passed": true,
+    "count": 9
+  }
+]

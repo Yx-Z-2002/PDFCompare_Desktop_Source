@@ -1,0 +1,24 @@
+test_comparison_audit_does_not_confuse_id_prefix (__main__.ServiceRegression.test_comparison_audit_does_not_confuse_id_prefix) ... ok
+test_comparison_audit_explains_filter_rejection (__main__.ServiceRegression.test_comparison_audit_explains_filter_rejection) ... ok
+test_comparison_audit_explains_missing_field (__main__.ServiceRegression.test_comparison_audit_explains_missing_field) ... ok
+test_comparison_audit_locates_body_reference_without_creating_record (__main__.ServiceRegression.test_comparison_audit_locates_body_reference_without_creating_record) ... ok
+test_duplicate_ids_preserved_and_flagged (__main__.ServiceRegression.test_duplicate_ids_preserved_and_flagged) ... ok
+test_equal_and_changed_requirements_end_to_end (__main__.ServiceRegression.test_equal_and_changed_requirements_end_to_end) ... ok
+test_formula_escaping_does_not_change_comparison_text (__main__.ServiceRegression.test_formula_escaping_does_not_change_comparison_text) ... ok
+test_grid_table_extracts_right_hand_value (__main__.ServiceRegression.test_grid_table_extracts_right_hand_value) ... ok
+test_inputs_unchanged_and_output_retained_after_close (__main__.ServiceRegression.test_inputs_unchanged_and_output_retained_after_close) ... ok
+test_invalid_input_and_truncated_upload_cleanup (__main__.ServiceRegression.test_invalid_input_and_truncated_upload_cleanup) ... ok
+test_missing_query_field_is_unresolved_not_rejected (__main__.ServiceRegression.test_missing_query_field_is_unresolved_not_rejected) ... ok
+test_no_matches_does_not_claim_complete_agreement (__main__.ServiceRegression.test_no_matches_does_not_claim_complete_agreement) ... ok
+test_original_search_handles_split_ids_and_scanned_pages (__main__.ServiceRegression.test_original_search_handles_split_ids_and_scanned_pages) ... ok
+test_original_search_rejects_empty_or_oversized_query (__main__.ServiceRegression.test_original_search_rejects_empty_or_oversized_query) ... ok
+test_query_fragmentation_and_option_boundaries (__main__.ServiceRegression.test_query_fragmentation_and_option_boundaries) ... ok
+test_repeated_prose_without_separator_is_not_removed (__main__.ServiceRegression.test_repeated_prose_without_separator_is_not_removed) ... ok
+test_scan_gap_must_not_assign_following_attributes_to_old_item (__main__.ServiceRegression.test_scan_gap_must_not_assign_following_attributes_to_old_item) ... ok
+test_scan_only_pdf_has_explicit_warning (__main__.ServiceRegression.test_scan_only_pdf_has_explicit_warning) ... ok
+test_windows_reserved_task_names_are_rejected (__main__.ServiceRegression.test_windows_reserved_task_names_are_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 0.437s
+
+OK

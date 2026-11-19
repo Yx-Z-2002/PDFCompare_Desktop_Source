@@ -1,0 +1,23 @@
+test_boundary_rule_does_not_make_negative_crop (__main__.SeparatorTests.test_boundary_rule_does_not_make_negative_crop) ... ok
+test_central_body_rule_rejected (__main__.SeparatorTests.test_central_body_rule_rejected) ... ok
+test_compatibility_wrapper_and_adjustable_limits (__main__.SeparatorTests.test_compatibility_wrapper_and_adjustable_limits) ... ok
+test_cropbox_relative_margins_and_bounds (__main__.SeparatorTests.test_cropbox_relative_margins_and_bounds) ... ok
+test_dashed_header (__main__.SeparatorTests.test_dashed_header) ... ok
+test_horizontal_only_grid_rejected (__main__.SeparatorTests.test_horizontal_only_grid_rejected) ... ok
+test_internal_vertical_divider_also_rejects_table (__main__.SeparatorTests.test_internal_vertical_divider_also_rejects_table) ... ok
+test_nearest_of_two_top_lines_preserves_body (__main__.SeparatorTests.test_nearest_of_two_top_lines_preserves_body) ... ok
+test_no_outer_text_insufficient_evidence (__main__.SeparatorTests.test_no_outer_text_insufficient_evidence) ... ok
+test_no_text_page_has_cleaning_record (__main__.SeparatorTests.test_no_text_page_has_cleaning_record) ... ok
+test_page_specific_text_and_line_position (__main__.SeparatorTests.test_page_specific_text_and_line_position) ... ok
+test_real_requirement_words_in_header_are_removed_by_geometry (__main__.SeparatorTests.test_real_requirement_words_in_header_are_removed_by_geometry) ... ok
+test_repeated_cleanup_uses_same_nearest_boundary (__main__.SeparatorTests.test_repeated_cleanup_uses_same_nearest_boundary) ... ok
+test_rotated_180_page_detects_other_edge (__main__.SeparatorTests.test_rotated_180_page_detects_other_edge) ... ok
+test_single_page_solid_header_and_footer (__main__.SeparatorTests.test_single_page_solid_header_and_footer) ... ok
+test_text_crossing_rule_preserved (__main__.SeparatorTests.test_text_crossing_rule_preserved) ... ok
+test_thin_filled_rectangle (__main__.SeparatorTests.test_thin_filled_rectangle) ... ok
+test_vertical_border_rejects_table (__main__.SeparatorTests.test_vertical_border_rejects_table) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.094s
+
+OK

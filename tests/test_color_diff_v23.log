@@ -1,0 +1,13 @@
+test_chinese_number_replacement (__main__.ColorDiffTests.test_chinese_number_replacement) ... ok
+test_equal_source_has_no_color (__main__.ColorDiffTests.test_equal_source_has_no_color) ... ok
+test_html_only_records_are_colored (__main__.ColorDiffTests.test_html_only_records_are_colored) ... ok
+test_insert_delete_and_empty (__main__.ColorDiffTests.test_insert_delete_and_empty) ... ok
+test_long_text_retains_all_content (__main__.ColorDiffTests.test_long_text_retains_all_content) ... ok
+test_repeated_chinese_keeps_local_change (__main__.ColorDiffTests.test_repeated_chinese_keeps_local_change) ... ok
+test_unicode_and_html_are_raw (__main__.ColorDiffTests.test_unicode_and_html_are_raw) ... ok
+test_whitespace_diff_keeps_original (__main__.ColorDiffTests.test_whitespace_diff_keeps_original) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.011s
+
+OK

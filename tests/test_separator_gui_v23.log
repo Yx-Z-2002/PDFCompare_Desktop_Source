@@ -1,0 +1,16 @@
+{
+  "passed": [
+    "preview_without_query_and_auto_off",
+    "independent_overlay_toggles",
+    "auto_switch_updates_applied_crop",
+    "per_page_navigation_and_jump",
+    "overlay_coordinates_and_removed_text",
+    "cropbox_overlay_mapping",
+    "rotated180_overlay_mapping",
+    "manual_crop_takes_maximum",
+    "main_and_advanced_controls_render",
+    "input_pdf_unchanged"
+  ],
+  "count": 10,
+  "errors": []
+}

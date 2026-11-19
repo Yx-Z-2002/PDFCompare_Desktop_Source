@@ -1,0 +1,14 @@
+test_both_title_and_description_colors (__main__.ColorGUITests.test_both_title_and_description_colors) ... ok
+test_changed_text_colors_and_full_dialog (__main__.ColorGUITests.test_changed_text_colors_and_full_dialog) ... ok
+test_duplicates_not_falsely_paired (__main__.ColorGUITests.test_duplicates_not_falsely_paired) ... ok
+test_ignored_whitespace_no_content_color (__main__.ColorGUITests.test_ignored_whitespace_no_content_color) ... ok
+test_mode_default_and_two_way_binding (__main__.ColorGUITests.test_mode_default_and_two_way_binding) ... ok
+test_only_a_b_colors_and_audit (__main__.ColorGUITests.test_only_a_b_colors_and_audit) ... ok
+test_outermost_preview_and_combined_crop_guard (__main__.ColorGUITests.test_outermost_preview_and_combined_crop_guard) ... ok
+test_refresh_clears_old_color (__main__.ColorGUITests.test_refresh_clears_old_color) ... ok
+test_small_main_keeps_selector_visible (__main__.ColorGUITests.test_small_main_keeps_selector_visible) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.766s
+
+OK

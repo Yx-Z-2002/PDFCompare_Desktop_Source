@@ -1,0 +1,32 @@
+{
+  "app_version": "2.3",
+  "core_regressions": 156,
+  "native_gui_workflows": 41,
+  "all_passed": true,
+  "windows_execution_tested": false,
+  "linux_application_self_test": {
+    "ok": true,
+    "python": "3.13.5 (main, Aug 10 2026, 12:06:59) [GCC 14.2.0]",
+    "tk": "8.6.16",
+    "native_window": true,
+    "tabs": 4,
+    "pdfplumber": "0.11.9",
+    "app_version": "2.3",
+    "runtime_root": "/workspace/scratch/eb1822bbcec6/improved"
+  },
+  "visual_checks": [
+    "native stop button at minimum window size",
+    "field diagnostic explanation and page evidence",
+    "existing red/green differences and expanded details",
+    "separator previews",
+    "completed comparison layout"
+  ],
+  "limitations": [
+    "Cancellation waits for the current indivisible PDF/library call to return",
+    "No actual user PDF supplied for missed-field diagnosis",
+    "Ambiguous parallel requirement layouts remain unresolved",
+    "No OCR; raster page-edge rules not supported",
+    "Windows native executable launch not verified"
+  ],
+  "total": 197
+}

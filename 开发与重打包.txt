@@ -1,0 +1,50 @@
+﻿PDFCompare 2.3 源码与验证
+
+目录
+improved/app/：桌面窗口、提取器、比较器和服务。
+improved/run.py：桌面入口。
+tests/：回归测试及测试结果摘要。
+packaging/：Go Windows GUI 启动器、构建脚本、运行时提取器。
+examples/：测试 PDF。
+
+源码运行
+安装 Python 3.13（包含 Tcl/Tk），在本目录运行：
+python -m pip install -r requirements.txt
+python improved/run.py
+
+回归测试另需 reportlab 和 pypdf：
+python -m pip install -r requirements-dev.txt
+python tests/regression_extract.py
+python tests/table_extract_checks.py
+python tests/regression_service.py
+python tests/regression_separators.py
+python tests/test_separator_service.py
+python tests/regression_gui.py
+python tests/test_separator_gui.py
+python tests/test_outer_separators.py
+python tests/test_color_diff.py
+python tests/test_color_diff_gui.py
+python tests/test_cancellation_service.py
+python tests/test_compare_cancellation.py
+python tests/test_v23_review.py
+python tests/test_field_recovery_v23.py
+python tests/test_cancellation_gui.py
+GUI 测试需图形桌面或有效 DISPLAY。
+
+构建单文件 Windows x64 exe
+下载本次交付的 PDFCompare_Desktop_v2_3.exe 并放在本目录。
+从 exe 提取其完整 Windows runtime：
+python packaging/extract_runtime.py --exe PDFCompare_Desktop_v2_3.exe --output build_runtime
+安装 Go 1.25 或更新版本，然后执行：
+python packaging/build.py --runtime build_runtime --app-dir improved/app --entry improved/run.py --go go --out dist/PDFCompare_Desktop_v2_3.exe
+build.py 使用 GOOS=windows、GOARCH=amd64、CGO_ENABLED=0 交叉编译。
+内置资源带逐文件 SHA-256 校验，解压缓存按资源版本隔离。
+请不要把不同 Python 小版本或架构的 _tkinter.pyd、Tcl/Tk、依赖 DLL 混用。
+本版 Windows 内置运行时为 CPython 3.13.12、Tcl/Tk 8.6.15。
+
+原始网页 server.py 仅作旧接口兼容保留，run.py 不调用它；桌面程序无 HTTP 服务。
+输出 HTML 是可选的离线报告。比较 CSV 的“存在”列仅表示命中结果中是否存在。
+
+PDFium 全局线程互斥依据：
+https://pypdfium2.readthedocs.io/en/stable/python_api.html#incompatibility-with-threading
+第三方许可随 exe 内置运行时一起保留，也可从 exe 中提取。
